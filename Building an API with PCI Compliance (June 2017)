@@ -1,0 +1,27 @@
+Building an API with PCI Compliance (June 2017)
+
+There have been massive thefts of credit card numbers in the past few years. Home Depot had 56 million stolen, 40 million from Target, and a steady stream of new cards appear on the dark webs. How do these thefts happen?
+
+While the credit card is a pretty nifty invention, it's a credential that's quite simple to steal. We casually hand over these precious digits to convenience store clerks, car mechanics, and waitstaff. We type it thoughtlessly into websites with at best a cursory glance at the validity of the entity we're purchasing from. After we hand it over, we typically have no visibility into what happens to our credit card data.
+
+Fortunately, in most cases these companies will try hard to keep our data secure. The reason is their fear of financial liability and a set of regulations called the Payment Card Industry Data Security Standard (PCI DSS).
+
+The PCI DSS regulations were created by the credit card companies with an executive committee consisting of American Express, Discover, JCB International, and Mastercard. The've generated a set of security standards that run into the hundreds of pages. Compliance with PCI is a major undertaking, and for better or worse, it's a requirement for companies that handle credit cards.
+
+The degree of difficulty in obtaining PCI compliance varies greatly. The burden is very high for companies directly handling credit card data, such as point of sale vendors and online payment processing software. These companies maintain dedicated staff to stay within PCI compliance.
+
+If you're a smaller company, you can generally avoid most of the PCI burden by leaning heavily on external vendors who have gone through the compliance steps. For example, if you're simply hosting a credit card on your website that's powered by Stripe or Braintree Payments, it will be a minimal effort to become PCI compliant.
+
+If you're doing something more specialized, for example encrypting and storing credit card data on servers so that you can transmit it to an external API, then you should be prepared for a fair amount of work to achieve compliance.
+
+In this case, the first step is to read the documentation. Overall you'll find that most of the PCI framework is pretty reasonable and consists of basic security concepts that any security expert would recommend. They're just expressed more verbosely and with a greater amount of redundancy than is ideal.
+
+One option is to skip the hard work yourself and hire an official PCI expert. However, seeing as PCI was assembled by a consortium of for-profit companies at the heart of capitalism, it's hardly surprising that they have found numerous ways to monetize their regulations for their own benefit. There is a list of hundreds of consultants and software vendors who annually hefty fees to the consortium to be named as 'official' vendors. While it's possible to retain an external consultant who's not 'official', keep in mind that if you are doing high volumes of credit card transactions you will eventually need to do an official PCI audit from one of the listed companies.
+
+A perhaps more concerning issue with PCI is that the regulations aren't always up-to-date with the latest thinking among security experts. Security is a rapidly evolving field, driven by interactions between hackers and hacked, offense and defense. Therefore, something that was good defense five years ago is not necessary the best practice today. For example, a new trend in security is shifting access controls from the perimeter (firewalls and closed networks) to individual devices and users. This is a sound security practice but is not always consistent with the hefty PCI requirements around firewalls and networks. Other examples are PCI's specific set of password rules which many experts would disagree with and several Windows-centric device requirements that don't translate well to Macs and Linux.
+
+Despite these complaints, the PCI requirements are actually a decent way to get your technology infrastructure into a strong security position. You'll just have to jump through a few extra hoops. If you follow news stories about recent credit card breaches, you can generally trace back the breach to a security holes that would have been plugged had PCI been more rigorously enforced.
+
+As an example of a good practice, one of the core principles is change management. Every time someone decides to open a port or run a service over a new IP address, there should be documentation and a test plan. Another good principle is to isolate all traffic that contains credit card data so that it's not exposed to insecure parts of the network architecture. And of course, promptly patching your software, locking down user access, and logging activity are all great security practices.
+
+The surprising thing to me about my first PCI project was that I found it quite interesting and challenging in good ways. But be prepared to invest some time. Just sitting down and reading the PCI requirements will probably take you a week or more. Creating a security plan will likely take many weeks. And implementing the plan will require substantial engineering cycles. However, this is the cost of doing business in the payments world. Don't have the patience for it? Well there's always bitcoin and ethereum.
