@@ -1,0 +1,27 @@
+Imagine that a warehouse worker arrives at work after a poor night of sleep. He clocks in and grabs his first work order to assemble a pallet of items for shipping to another facility.  As he finishes gathering the order, he moves the pallet to what he thought was the correct pickup area, but was actually the area for shipments to a different state.  The truck picks up the order and drives it hundreds of miles to the wrong location.
+
+In some industries, shipping mistakes occur as frequently as 5% of the time and make a significant dent in the bottom line. These imperfections in the logistics process can be fixed through ERP IoT integration.  By melding Enterprise Resource Planning (ERP) systems with a new generation of connected devices, entirely new efficiencies can be reached.
+
+ERP is a well known technology that's had a tremendous impact on business efficiencies over the last few decades. While originally built as monolithic software, systems are designed with flexibility in mind including the ability to host in the cloud and a modern middleware layer of Application Programming Interfaces (APIs) to connect with external software and hardware. REST APIs and Message Bus systems offer other means of communications. 
+
+Integrating just one component, such as RFID tags, into your ERP can generate significant value
+
+The Internet of Things (IoT) refers to devices that are connected to networks. By bringing hardware onto the Internet, automation can be taken to an entirely new level.  Devices can be integrated into any piece of hardware from factory machines to forklifts and shipping pallets.
+
+Let's look again at our warehouse worker but now operating in a newly connected logistics system. With the click of a button, the warehouse worker is recording each item added to the pallet with a wireless-connected RFID scanner. The pallet itself contains an IoT device that is able to track movement and position by means of an real-time location system (RTLS).  When the pallet is moved to the incorrect pickup location, an alert is triggered and both the warehouse worker and his manager are notified. The ERP has determined that a mistake has been made.
+
+The core of an automation system in the warehouse is ERP software designed for the Internet.  In most cases, the ERP system should reside in the cloud where it can be securely updated, monitored, and maintained.  Hosting in the cloud also makes it easy to open up interfaces into other systems.  In situations where a legacy ERP exists and is difficult to replace, a middleware solution can be added to extend the existing ERP and provide connectivity to the Internet, creating a Hybrid ERP solution. 
+
+In recent years, RFID tags have become so inexpensive that they are becoming routine for use in inventory management.  Let's look at an how IoT devices could work with an ERP system to better improve inventory management. 
+
+In the IoT warehouse, every new item that enters receives a physical tag that's mapped to an entry in the ERP system.  When an item is moved, the tag is scanned and the ERP system gets an updated status.  By using Internet-enabled RFID scanners, this information is maintained in real time.  After an order for a new delivery is generated, the ERP system can track when and where the order gets fulfilled.
+
+When the pallet is moved, the ERP can see where the items are moving and can immediately detect when the items associated with a work order has been placed in the wrong pickup location.  This occurs because every time a change in pallet location is detected, a software process runs to compare it with the work order destination.  When there's a mismatch, it can generate an alert via an API gateway for cellular communications that send a text message to the worker and his or her manager.
+
+Once the correct shipment has been picked up, a cellular-connected GPS device integrated into the truck provides continual updates about the estimated time of delivery as well as fuel consumption and driver alertness.  When the shipment is dropped at the next facility, the tracking continues at the item level.
+
+Automation of an existing facility does not need to happen all at once.  Integrating just one component, such as RFID tags, into your ERP can generate significant value while allowing the larger system to be rolled out in stages.  While there may be significant investments required, a planning exercise can demonstrate the time horizon within which cost recovery can occur.  Fortunately, Moore's law indicates that software and hardware costs will continually fall and make automation still more affordable.
+
+The advantages of an automated supply chain include streamlined logistics and lower costs. The ability to dynamically reallocate assets can decrease equipment costs.  Eliminating process bottlenecks can permit a larger number of shipments with the same workforce.  Optimizing inventory stocking directly reduces costs. And tracking the locations of all people and equipment can lead to significant improvements in safety.
+
+Perhaps most importantly, automation provides senior management with an audit trail and business intelligence.  WHEN Using an ERP, activity can be monitored in real-time and viewed through different reporting dashboards.  And if the ERP is maintained in the cloud, actionable data can be viewed from any Internet browser or a mobile app.  Once ERP IoT integration becomes a part of daily activity, the rewards will only grow over time.
