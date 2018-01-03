@@ -1,0 +1,29 @@
+How Software Security Mistakes Led to a CEO's Removal (Nov 2017)
+
+What did Equifax's CEO have in common with the former leaders of Target and Sony? All three were fired in association with failures to defend their company against high profile security breaches.
+
+When Equifax's former CEO Richard Smith was hauled before Congress to explain why his company failed to protect personal data for over 140 million US consumers, the criticism wasn't muted. Representative Greg Walden of Oregon stated: "I don’t think we can pass a law that – excuse me for saying this – fixes stupid." CEO Smith's forced departure followed that of the company's Chief Information Officer and Chief Security Officer.
+
+More details of the Equifax breach have been gradually coming to light. An additional 2.5 million US consumers were impacted for a total of 145.5 million. The unauthorized accesses occurred from May to July and were the result of Equifax's failure to patch a vulnerability in an enterprise software package called Apache Struts, despite the Equifax security team's knowledge of their dangerously out of date software since early March.
+
+Equifax only discovered the breach on July 29, 2017 when the security team observed suspicious network traffic reaching their online portal. After investigating, they removed the web application and finally got around to patching the Apache Struts software and then brought the website back online. On August 2nd, they contacted the well known security firm Mandiant to do a forensic review of the intrusion and what data had been impacted.
+
+The news keeps getting worse. According to journalist Brian Krebs, the owners of the 209,000 credit cards which were stolen from Equifax were actually unwilling customers who had paid Equifax to freeze their credit file. This payment was required because Equifax can legally charge fees to consumers in most states for freezing their credit file even if the data has been collected without consent. Krebs also revealed that security holes have been discovered at a payroll division of Equifax that allows easy theft of detailed salary and employment history from a large portion of Americans.
+
+The reason that the security vulnerability in Apache Struts was so serious is that it opened a door for a hacker to remotely execute their own code on the Equifax server. With a single web request, a hacker could access files and bypass all security controls. The hackers responsible for the Equifax breach reportedly installed upwards of 30 access points during their operation, enabling them to steal login credentials, personal records and other information.
+
+Equifax has not been forthcoming about the reason for their delay in fixing a software vulnerability of such seriousness. Their security team should have been aware of the likelihood that Equifax would be a target since the flaw was widely known in hacking circles. One possibility is that their security team was overly confident in their security software countermeasures. However as prominent security researcher Kevin Beaumont stated, "Top tier security tools won’t save you from vulnerabilities this bad."
+
+Much can be learned from the mistakes of Equifax.
+
+After a string of highly lucrative years, it appears that Equifax had grown complacent in ignoring the elephant in the room: the company was storing sensitive data about hundreds of millions of consumers who had never consented to sharing that data with Equifax. In recent years, there had been a string of more minor hacking incidents at Equifax and its competitors. Those incidents should have raised alarms, the fact that they didn’t created an accident waiting to happen.
+
+All employees, and especially upper management, should be aware of the consequences of a major security breach. Hackers are not just a problem for the security team.
+
+Executives don't get fired for implementing a culture of security. Good security starts at the top when leadership takes responsibility for prioritizing a defense against threats. This is especially crucial for any company whose business is dependent on the storage of private and valuable data. It was a failure of top leadership, not that of the Equifax security team, that resulted in such large scale damage. Accordingly, the CEO and top technology executives took the fall for the failure.
+
+Companies don’t change overnight and it takes dedication to develop an internal culture of security. A good starting point is for leadership to personally adopt good practices like keeping passwords secure and running software updates on their phone and computer regularly.
+
+A company is not safe just because it purchased expensive firewall software or checked a box for antivirus protection. Good security requires a bit of hard work including implementation throughout IT processes and the involvement of all employees with access to sensitive data or infrastructure.
+
+IT teams should have processes for consistently updating software with patches. If they don’t, it’s important to ask why. Perhaps there is legacy software that can’t be easily updated. In that case, it’s important to make a plan to replace it, and in the meantime do everything possible to isolate that software from the Internet. If teams are too busy to install patches, then it’s time to dig into their backlog of tasks and re-prioritize the tasks that might make or break the company.
