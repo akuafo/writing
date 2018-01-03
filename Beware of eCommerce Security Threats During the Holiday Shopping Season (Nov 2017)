@@ -1,0 +1,38 @@
+Beware of eCommerce Security Threats During the Holiday Shopping Season
+(Nov 2017)
+
+The seasonal holiday surge in online shopping is great for companies selling their products online. At the same time, it brings risks of increased payment fraud.
+
+According to the Global Fraud Index, nearly $60 billion worth of global eCommerce fraud occurred in the second quarter of this year with 90% attributed to stolen financials. An unfortunate trend in recent years has been the creation of black market online marketplaces that allow for credit cards to be easily purchased and traded. Credit cards can be purchased in bulk by teams of malicious hackers and used to purchase goods online which later get resold elsewhere. Unsurprisingly, higher priced items are more desirable, with the fraud rate for transactions valued over $500 being 22 times higher than for transactions valued under $100.
+
+There are two key aspects for payments security: Consumer security and security of the eCommerce merchant.
+
+Consumer level security is focused on maintaining the safety of each shopper’s credit card credentials. The standards for security are enforced by the consortium of credit card processors under the umbrella of the Payment Card Industry (PCI) who base their authority on their ability to control traffic flowing across their networks. PCI Compliance covers such areas of technology as using HTTPS (not just HTTP), never storing credit card numbers, and maintaining good security practices throughout an organization.
+
+The stringency of PCI Compliance regulations varies according to the implementation of payments technology. The lightest regulations apply to companies who have completely outsourced the payments collection process to an eCommerce software vendor. Heavily regulations apply to companies are managing their own payments infrastructure, with the highest standards for companies who are storing credit cards. For companies with relatively small eCommerce revenues and simple requirements for collecting payments, outsourcing the entire payments operations will be most cost effective. Companies with larger revenues will want to minimize their software and processing transaction fees by assembling their own infrastructure.
+
+Beware the fraudulent transaction
+
+The biggest concern for eCommerce merchants is when a large number of fraudulent transactions happen on their eCommerce website. While there are many parties involved in the fraudulent transaction, the primary risk is borne by the eCommerce merchant.
+
+When a merchant accepts an order online that is later determined to be fraudulent, it is their responsibility to refund the customer. The merchant will hear from the bank that issued the credit card to the consumer. Additionally, if the product has already been shipped to the fraudulent consumer, the cost of product and shipping are borne by the eCommerce merchant. And the eCommerce merchant will likely be required to pay an additional fee called a chargeback to the acquiring bank which handles the credit card revenue deposited in their account.
+
+When too many chargebacks occur, the acquiring bank will raise their credit card processing fees, often dramatically. They can also make the unilateral decision to shut down the eCommerce merchant’s account, which can occur with no advance notice.
+
+Fortunately, there are many software tools that can assist with fraud prevention. The best solutions are generally integrated directly into the website on the frontend and also monitor transactions in the backend. Fraud prevention vendors often maintain large databases of known fraudulent users that have been built up over time by monitoring millions of transactions. The vendor observes users that were found to have used a fraudulent credit card and take a snapshot of that user's session information (often called fingerprinting) by recording many data points about the type of browser, the type of computer, the screen dimensions, the IP address, and other information. If they see that user again, they will automatically block them.
+
+Another security concern are scripts used by criminals to validate credit card. When a hacker comes into possession of a large set of stolen credit cards, they need to know which of the credit cards have already been flagged as fraudulent. Otherwise, when they use the known fraudulent cards, their profile or fingerprint may be blocked and prevent them from using any cards. To get around this, the hacker may use a program known as a script that will test a list of credit card numbers against a merchant’s eCommerce website to see if the credit card number will be rejected. If the credit card isn’t refused, they know it’s usable for fraudulent transactions and it can be resold to other criminals.
+
+While there is no financial liability for the eCommerce merchant targeted by scripted transactions, it can add to hosting and processing costs and of course is enabling further criminal behavior. The best practice is to implement monitoring systems that will detect repeated transactions from the same user session and block them.
+
+While it's important to block the criminals, it's also a balancing act to make sure that innocent consumers aren't inadvertently blocked from making purchases. That can happen if the blocking software is too broad, for example by blocking all users coming from a certain country or all users of Android devices. While most fraud monitoring software is good at managing this balance, it’s a good idea to validate through additional monitoring software and keeping close track of payment trends over time.
+
+A few other security safeguards to keep in mind.
+
+Set up monitoring systems with alerts based on increases in credit card activity and maximum transaction amounts. If fraud is happening, you want to know immediately.
+
+Most stolen credit cards will not include the billing address and credit card verification number (CVV/CVV2). Requiring shoppers to enter this information will decrease fraud, although it also increases friction on the purchase.
+
+Verify that your hosting software partners have good security for eCommerce. A good first step is to ask for documentation about PCI Compliance. While they may not be required to be PCI Compliant themselves, they should be able to provide details about their level of security.
+
+Maintain a strong security infrastructure across the board by following best practices. Keep software up to date and ensure employees get the training they need to keep your infrastructure secure.
