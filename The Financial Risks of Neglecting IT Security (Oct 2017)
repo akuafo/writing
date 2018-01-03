@@ -1,0 +1,26 @@
+The Financial Risks of Neglecting IT Security (Oct 2017)
+
+This past June, an obscure financial accounting software package called MEDoc was hacked, sowing the seeds for a malware attack that would result in hundreds of millions of dollars in losses across such well known companies as Merck, FedEx, and Maersk.
+
+The attack has been termed NotPetya. The initial set of infected machines had the MEDoc software installed. When the software was updated, it downloaded a piece of malware that had been inserted by an organized team of hackers. The malware appears to make use of powerful software exploits that had been discovered by the National Security Agency and were leaked earlier this year.
+
+NotPetya started in the Ukraine and quickly spread across the globe. It added extra firepower to the original malware by collecting file sharing passwords from the infected PCs. This allowed the relatively small set of compromised computers in Ukraine to infect other computers located in other regions of the world.
+
+The consequences of NotPetya have been considerable and the financial losses are still being tallied.
+
+Maersk
+When filing their 2nd quarter earnings report, Maersk said they expect losses between $200 million and $300 million. These losses were attributed to the breakdown in business operations while critical computer systems were offline. As a precaution, Maersk shut down their terminal APM Terminals and freight partner Damco. According to a local office, they deliberately turned off phone and email systems and used Microsoft Excel spreadsheets and handwritten information to communicate about cargo.
+
+Merck
+In Merck's 2nd quarter financial results, Merck stated that there was significant impact from NetPetya. Merck didn't list specific losses because the impact is still being investigated, however their manufacturing, research, and sales operations were all significantly affected. In particularly, Merck's Active Pharmaceutical Ingredient operations were hard hit.  As detailed by security journal Cyberscoop, the management team at Merck took drastic measures to stop the malware from spreading, including telling its 70,000 employees to cease all interactions with company networks and to stop booting up company computers and tablets. Since company email was disabled, Merck supervisors had to send instructions via copied and pasted text messages. For a period of time after the attack, the sales staff had to communicate exclusively via telephone and in-person meetings and keep paper records.
+
+Federal Express
+Federal Express filed a financial report about the severity of the cyber-attack to its subsidiary TNT Express. According to reports, piles of packages were ‘going up to the ceiling’ for a period of several weeks after the initial attack.  Shipments had to be processed by hand until systems were recovered.
+
+The security takeaway from NotPetya
+
+The NotPetya malware was able to spread so quickly because of the multitude of poorly maintained computers that haven’t been updated to the latest operating system (OS).  In the case of NotPetya, as with most malware, the OS that was targeted was Microsoft Windows. The easiest way to stop such an attack is by turning on automated software updates. It’s also important to reinforce automated systems through written security policies and training to involve everyone who is potentially in the path of attack from executives to employees to IT workers to contractors.
+
+A common reason for companies to delay updating OS software is because they are using older customized software that won’t run on newer versions of the OS. This refrain was often heard from hospitals that were hit by the WannaCry ransomware earlier this year, many of whom had legacy software that required the use of an ancient version of Windows called XP that was no longer supported by Microsoft. While there may be legitimate concerns about the costs of porting software, those costs typically pale in comparison to the potential financial losses. Additionally, there are significant productivity benefits to updating to newer software that can leverage the latest security components, technology innovations, and user interface design.
+
+The big takeaway from the NotPetya incident is that a small investment in IT security can result in dramatically lowered risk. It's crucial to upgrade hardware and software on a regular cycle. IT staff should set up automatic updates on all devices that support it and abide by policies for updating any devices that require manual updates. There should also be policies about employees and contractors who bring their own devices to work, whether laptop or phone, so that those devices are also updated with the latest software versions.
