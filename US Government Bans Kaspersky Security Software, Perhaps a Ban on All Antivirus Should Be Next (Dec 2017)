@@ -1,0 +1,32 @@
+US Government Bans Kaspersky Security Software, Perhaps a Ban on All Antivirus Should Be Next
+(Dec 2017)
+
+This fall, the United States banned Kaspersky software from government agencies due to fears of Russian hacking. According to reports in the The New York Times and the Washington Post, allegations were made that software from Kaspersky, which is headquartered in Russia, was manipulated to target U.S. intelligence assets throughout the world. The ongoing removal of Kaspersky software is impacting computer systems at about 15 percent of US government agencies.
+
+The reality is that antivirus software, also referred to under the broader term of anti-malware, was on the decline already.
+
+Problems with antivirus software
+The attraction of antivirus software for hackers is that it opens a security vulnerability. Antivirus software needs to be granted access to all the files on a computer so that it can inspect them. A well-equipped hacker, such as someone from a foreign state, may be able to identify flaws or insert their own code into the antivirus software itself. So while inspecting email attachments and downloaded files, the antivirus software also opens a door through which a determined hacker may stroll to gain access to any file they please. And if that hacked computer belongs to someone working for the government or a company with strategic assets, it could be used as a stepping stone in a concerted plan to reach other parts of the network.
+
+In parallel, there has been a larger trend of decline in effectiveness of antivirus software.  The hacking community has become more sophisticated in using an array of attack surfaces and rapidly evolving malware file types. A key problem with antivirus technology is that it can only respond to threats from the past.  The software works by taking a fingerprint of every file that is known to be malware and then checking files on a computer to see if there is a match.  So if a malware file isn’t already known, it will be missed.  There are new innovative technologies that improve this deficiency by looking at a larger set of attributes of the file and making a prediction about whether it is malware. However, this technology is generally regarded as not yet mature, despite the marketing claims of new antivirus startups and established vendors.
+
+Overall belief in the effectiveness of antivirus software is far higher among consumers than among security experts. According to a Google study, 42 percent of non-experts listed antivirus software as one of the most important steps they took to protect themselves, while it didn't appear in the top five for security professionals.
+
+Does anyone need antivirus software
+The reason that security experts view antivirus software as a low priority is that other security vulnerabilities are more dangerous. For example, everyone should promptly update their operating systems, internet browsers, and software packages. Also important is using complex passwords that are unique for each website or program, maintaining them in a password manager, and never sharing them. People should be trained to protect against phishing by examining emails before clicking links and examining websites before entering passwords. And everyone should avoid the threat of ransomware by backing up data and keeping it in a secure place.
+
+Along with these basic security measures, it’s important to take advantage of the default security built into Microsoft Windows, Apple Mac, and Linux.
+
+For Microsoft Windows computers, there is a pre-installed antivirus product called Windows Defender which handles the major functions of antivirus. In recent years, Microsoft has been making a big investment in Windows Defender with the goal of keeping all Windows computers safe. In comparison to third-party antivirus software, the Microsoft product is tightly architected into the operating system.  That means it’s less likely to have a vulnerability that can be exploited by hackers and also has a smaller impact on performance. Additionally, Microsoft can be considered as a more trustworthy software partner than most antivirus companies who have fewer resources and perhaps less motivation to keep their customers secure.
+
+For Apple Mac computers, the operating system is less vulnerable due to the better security model of Linux as compared to Windows. In addition, Apple has a number of default security settings to block malware, such as making it difficult for users to open files that are downloaded from the internet. While some Mac users do install third-party antivirus programs, the computer can generally be operated securely without them.
+
+For pure Linux computers (Red Hat, Ubuntu, etc), the operating system is not only architected for security but also designed for a technical user base. While antivirus programs do exist for Linux computers, they are not commonly used outside of high risk use cases and for regulatory compliance.
+
+Most mobile phones are less vulnerable due to the limited ability for third-party software to access files on mobile operating systems.  It’s important to keep in mind that there are security differences between Apple's iOS devices and Android. Apple iOS is more tightly controlled and thus more secure.  Android is less secure because software programs have greater access to files.  There is also variation among Android phones, with most secure phones being produced by Google who controls the Android operating system and is thus first to issue security updates.
+
+For anyone who opts out of third-party antivirus software, there are still ways to examine individual files for malware. If a file seems suspicious in any way, it can be submitted it to a free malware detection site like VirusTotal https://www.virustotal.com/ (owned by Google). VirusTotal aggregates malware file signatures from across a wide range of antivirus vendors and can recognize
+ most malware.
+
+Advice on choosing antivirus software
+For many organizations, there will still be a need for antivirus software as part of their overall security framework. It’s challenging to research this topic online because of the large number of inaccurate, biased, and paid reviews. Instead, look for guidance from leading research organizations.  One source is the SANS guidelines for antivirus (and please, inspect that link before you download a random PDF from the internet).
