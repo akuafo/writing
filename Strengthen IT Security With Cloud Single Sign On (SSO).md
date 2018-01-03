@@ -9,11 +9,7 @@ For a determined hacker, a single employee password may prove sufficient to brin
 
 One way in which the cloud particularly excels is by protecting the way that employees login to business systems. Consider how many people follow poor password practices. One employee may re-use the same password across dozens of websites, another employee uses their dog’s name, while a third keeps their passwords taped to their monitor. By such means are passwords easily stolen and used for nefarious purposes or traded on the dark webs. For a determined hacker, a single employee password may prove sufficient to bring down a corporate network or abscond with millions of dollars.
 
-How Single Sign-On Reduces Exposure
-
 Fortunately there is a superb cloud component that reduces exposure to stolen employee login credentials. This component is called Single Sign-On (SSO) and it unifies the process of employee access to business systems. Administrators are given a powerful interface to protect corporate systems while employees are provided with a safe and easy way to login from anywhere. By using SSO, an employee can log into their email on their phone, their accounting software on their PC, and their ERP software on their home computer -- all with only one set of login credentials.
-
-Cloud SSO is a strong secutity solution
 
 For security teams and administrators, single sign-on is the solution of choice due to its robust protections and simplified management. By channeling all authentication requests through a single login system, strong security layers are easily added. Rules for long and complex passwords are set at the company level and enforced universally. Algorithms for automatically blocking suspicious access attempts are associated with device profiles and geolocation.
 
