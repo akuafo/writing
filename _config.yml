@@ -1,2 +1,4 @@
 name: Matt Gross, writer
 markdown: kramdown
+
+theme: jekyll-theme-slate
